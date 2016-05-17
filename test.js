@@ -9,4 +9,3 @@ function Door(num) {
 
 var door = new Door('green');
 
-console.log(door.name);
