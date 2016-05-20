@@ -4,27 +4,19 @@
     <meta charset="UTF-8">
     <title></title>
     <script src="test.js"></script>
-    <style>
-        html{border:5px solid red;padding:30px;}
-        body{border:5px solid green;padding:30px;}
-        fieldset{border:5px solid blue;padding:30px;}
-        input{border:5px solid black;padding:30px;   }
-    </style>
+    <link rel="stylesheet" href="./test/css/compass_test.css">
 </head>
 <body>
-<fieldset>
-    <legend>event propagation</legend>
-    <input type="button" id="target" value="target">
-</fieldset>
-<script>
-    function handler(event){
-        var phases = ['capturing', 'target', 'bubbling']
-        console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
-    }
-    document.getElementById('target').addEventListener('click', handler, true);
-    document.querySelector('fieldset').addEventListener('click', handler, true);
-    document.querySelector('body').addEventListener('click', handler, true);
-    document.querySelector('html').addEventListener('click', handler, true);
-</script>
+<div class="box">test</div>
+<ul>
+    <li class="sprite-ico_1"></li>
+    <li class="sprite-ico_2"></li>
+    <li class="sprite-ico_3"></li>
+    <li class="sprite-ico_4"></li>
+    <li class="sprite-ico_5"></li>
+    <li class="sprite-ico_6"></li>
+    <li class="sprite-ico_7"></li>
+    <li class="sprite-ico_8"></li>
+</ul>
 </body>
 </html>

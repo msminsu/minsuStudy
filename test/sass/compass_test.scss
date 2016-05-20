@@ -1,0 +1,10 @@
+
+@import "sprite/*.png";
+@include all-one-sprites;
+
+
+ul,li{margin:0;padding:0;
+  list-style: none;}
+li{
+  width: 60px;
+  height: 60px;}
