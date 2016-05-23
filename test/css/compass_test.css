@@ -1,0 +1,9 @@
+.toolbar-sprite, .icon_wold { background-image: url('../img/toolbar-se62e706525.png'); background-repeat: no-repeat; }
+
+.icon_wold { background-position: 0 -420px; }
+
+ul, li { margin: 0; padding: 0; list-style: none; }
+
+li { width: 60px; height: 60px; }
+
+span { display: block; }

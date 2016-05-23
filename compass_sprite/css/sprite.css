@@ -1,0 +1,8 @@
+/* line 6, ../sass/sprite.scss */
+div { background: url('../img/icon_list-s8dc5382f07.png'); }
+
+/* line 8, ../sass/sprite.scss */
+ul, li { margin: 0; padding: 0; list-style: none; }
+
+/* line 9, ../sass/sprite.scss */
+li { width: 50px; height: 50px; }
