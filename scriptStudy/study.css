@@ -1,0 +1,4 @@
+
+/* CSS로 글자가 확대 안하게 지정하면 글자 크기도 고정된다. */
+p {  -webkit-text-size-adjust: none;  }
+
