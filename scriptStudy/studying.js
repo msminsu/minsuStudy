@@ -1,37 +1,27 @@
-// 객체 생성하는 함수 : 생성자 함수 (Constructor Function)
 
-function Navigation(el){
-    this.el = document.querySelector(el);
-   // this.children = this.el.querySelectorAll('a');
-   // this.childrenLength = this.children.length;
+window.onload = function(){
+    //1. 브라우저에 따른 XMLHttpRequest생성
+    var xmlHttp = createXMLHTTPObject();
+};
+//1. 브라우저에 따른 XMLHttpRequest 생성
+function createXMLHTTPObject() {
+
+    var xhr = null;
+    if( window.XMLHttpRequest){
+        // IE7+, 크롬, 사파리, 파폭, 오페라는 XMLHttpRequest 객체를 제공합닏.
+        xhr = new XMLHttpRequest();
+    }else{
+        //IE5,6 버전에서는 다음과 같은 방법으로 XMLHttpRequest 객체를 생성해야 합니다.
+        xhr = new ActiveXObject('Microsoft.XMLHTTP');
+    }
+
+    return xhr;
 }
 
-//생성자 함수의 프로토 타입: 생성되는 객체의 원형(Prototype)
 
-Navigation.prototype = {
-    nextLink : function () {
-        console.log(this.el, '다음 링크 활성화');
-    },
-    prevLink: function(){
-        console.log(this.el, '이전 링크 활성화');
-    },
-    goToLink : function(num){
-        console.log(num + '링크 활성화');
-    },
-    playRollingLinks :function () {
-        console.log('링크 롤링 시작');
-    },
-    stopRollingLinks: function () {
-        console.log('링크 롤링 중지');
-    }
-};
 
-// Navigation 인스턴스 객체 생성
-var hNav = new Navigation('header nav');
-var aNav = new Navigation('aside nav');
-var mNav = new Navigation('main nav');
-var fNav = new Navigation('footer nav');
 
-// Navigation 인스턴스 객체 메소드 활용
-hNav.nextLink();
-mNav.prevLink();
+[16:39:47] Local gulp not found in ~\Desktop\minsuStudy
+[16:39:47] Try running: npm install gulp
+
+

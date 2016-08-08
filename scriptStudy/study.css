@@ -1,4 +1,26 @@
+body {
+    width    : 100%;
+    height   : 100%;
+    overflow : hidden;
+    background-color : #777;
+}
 
-/* CSS로 글자가 확대 안하게 지정하면 글자 크기도 고정된다. */
-p {  -webkit-text-size-adjust: none;  }
+#chat {
+    position : absolute;
+    top      : 8px;
+    left     : 8px;
+    bottom   : 8px;
+    right    : 8px;
+    border-radius : 8px 8px 0 8px;
+    background-color : #fff;
+}
 
+.chat-slider {
+    position : absolute;
+    right : 2px;
+    width : 300px;
+    height : 16px;
+    cursor : pointer; border-radius : 8px 0 0 0;
+    background-color : #f00;
+    bottom :0;
+} 
