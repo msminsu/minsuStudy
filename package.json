@@ -1,0 +1,28 @@
+{
+  "name": "minsu",
+  "version": "1.0.0",
+  "description": "study-gulp",
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msminsu/minsuStudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msminsu/minsuStudy/issues"
+  },
+  "homepage": "https://github.com/msminsu/minsuStudy#readme"
+}
