@@ -1,12 +1,14 @@
-/**
- * Created by msminsu on 16. 8. 6..
- */
+var isCrazy = false;
 
-function script01(){
-    console.log('script01 파일');
+function interact_humans(){
+    if(isCrazy == true){
+        console.log('kill');
+    }else{
+        console.log('nice');
+    }
 }
 
-script01();
+interact_humans();
 /**
  * Created by msminsu on 16. 8. 6..
  */

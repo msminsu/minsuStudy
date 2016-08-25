@@ -1,9 +1,9 @@
-/**
- * Created by msminsu on 16. 8. 6..
- */
+var speak = function(){
+    sayYo();
+    function sayYo(){console.log('Yo');}
+}();
 
-function script01(){
-    console.log('script01 파일');
-}
 
-script01();
+console.log(sum(2,3));
+
+function sum(x,y){return x+y;}
