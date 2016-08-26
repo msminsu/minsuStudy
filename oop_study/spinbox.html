@@ -10,52 +10,76 @@
 </head>
 <body>
 
-<div class="spinbox">
+<div class="spinbox1">
     <input type="text" value="10" id="result">
-    <button type="button" id="increase">+</button>
-    <button type="button" id="decrease">-</button>
+    <button type="button" class="increase" data-ctrl="plus">+</button>
+    <button type="button" class="decrease" data-ctrl="minus">-</button>
+</div>
+
+<div class="spinbox2">
+    <input type="text" value="10" id="result2">
+    <button type="button" class="increase" data-ctrl="plus">+</button>
+    <button type="button" class="decrease" data-ctrl="minus">-</button>
 </div>
 <script>
     (function($){
         function spinbox(container, options){
-
             if(!container.length){ return;}
 
             var detect = {
-
+                setId: null
             };
 
             var config = {
-                limited : true
-            };
 
+            };
 
             $.extend(config, options);
 
             function init(){
                 setup();
 
-                $(document).on('click','#increase',increase);
-                $(document).on('click','#decrease',decrease);
+                $(document).on('mousedown','[data-ctrl="plus"]',increase)
+                           .on('mouseup','[data-ctrl="plus"]',calculateEnd)
+                           .on('mousedown','[data-ctrl="minus"]',decrease)
+                           .on('mouseup','[data-ctrl="minus"]',calculateEnd);
             }
 
+
             function setup(){
+
                 detect.item = container.find(config.item);
+                console.log(detect.item);
+            }
+
+            //var setId;
+            function calculate(str){
+
+                if( str == 'plus') {
+                    detect.item.val(Number(detect.item.val()) + 1);
+                }else if(str == 'minus'){
+                    detect.item.val(Number(detect.item.val()) - 1);
+                }
             }
 
             function increase(){
-                console.log(detect.item.text);
+                config.setId = setInterval(calculate,50,['plus']);
             }
 
             function decrease(){
-                console.log(2);
+               config.setId = setInterval(calculate,50,['minus']);
+            }
+
+            function calculateEnd(){
+                clearInterval(config.setId);
             }
 
         init();
-
         }
 
-        spinbox($('.spinbox'),{item:'#result'});
+        spinbox($('.spinbox1'),{item:'#result'});
+        spinbox($('.spinbox2'),{item:'#result2'});
+
     })(jQuery);
 </script>
 </body>
