@@ -16,18 +16,15 @@
     <button type="button" class="decrease" data-ctrl="minus">-</button>
 </div>
 
-<div class="spinbox2">
-    <input type="text" value="10" id="result2">
-    <button type="button" class="increase" data-ctrl="plus">+</button>
-    <button type="button" class="decrease" data-ctrl="minus">-</button>
-</div>
+
 <script>
     (function($){
         function spinbox(container, options){
             if(!container.length){ return;}
 
             var detect = {
-                setId: null
+                setId: null,
+                item: null
             };
 
             var config = {
@@ -37,19 +34,17 @@
             $.extend(config, options);
 
             function init(){
-                setup();
 
+                setup();
                 $(document).on('mousedown','[data-ctrl="plus"]',increase)
                            .on('mouseup','[data-ctrl="plus"]',calculateEnd)
                            .on('mousedown','[data-ctrl="minus"]',decrease)
                            .on('mouseup','[data-ctrl="minus"]',calculateEnd);
             }
 
-
             function setup(){
 
                 detect.item = container.find(config.item);
-                console.log(detect.item);
             }
 
             //var setId;
@@ -78,7 +73,6 @@
         }
 
         spinbox($('.spinbox1'),{item:'#result'});
-        spinbox($('.spinbox2'),{item:'#result2'});
 
     })(jQuery);
 </script>
