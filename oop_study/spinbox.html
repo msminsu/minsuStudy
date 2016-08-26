@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spinBox</title>
+    <style>
+
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+</head>
+<body>
+
+<div class="spinbox">
+    <input type="text" value="10" id="result">
+    <button type="button" id="increase">+</button>
+    <button type="button" id="decrease">-</button>
+</div>
+<script>
+    (function($){
+        function spinbox(container, options){
+
+            if(!container.length){ return;}
+
+            var detect = {
+
+            };
+
+            var config = {
+                limited : true
+            };
+
+
+            $.extend(config, options);
+
+            function init(){
+                setup();
+
+                $(document).on('click','#increase',increase);
+                $(document).on('click','#decrease',decrease);
+            }
+
+            function setup(){
+                detect.item = container.find(config.item);
+            }
+
+            function increase(){
+                console.log(detect.item.text);
+            }
+
+            function decrease(){
+                console.log(2);
+            }
+
+        init();
+
+        }
+
+        spinbox($('.spinbox'),{item:'#result'});
+    })(jQuery);
+</script>
+</body>
+</html>
