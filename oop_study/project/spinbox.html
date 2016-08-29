@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spinBox</title>
+    <style>
+
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+</head>
+<body>
+
+<div class="spinbox1">
+    <input type="text" value="10" id="result">
+    <button type="button" class="increase" data-ctrl="plus">+</button>
+    <button type="button" class="decrease" data-ctrl="minus">-</button>
+</div>
+
+
+<script>
+    (function($){
+        function spinbox(container, options){
+            if(!container.length){ return;}
+
+            var detect = {
+                setId: null,
+                item: null
+            };
+
+            var config = {
+
+            };
+
+            $.extend(config, options);
+
+            function init(){
+
+                setup();
+                $(document).on('mousedown','[data-ctrl="plus"]',increase)
+                           .on('mouseup','[data-ctrl="plus"]',calculateEnd)
+                           .on('mousedown','[data-ctrl="minus"]',decrease)
+                           .on('mouseup','[data-ctrl="minus"]',calculateEnd);
+            }
+
+            function setup(){
+
+                detect.item = container.find(config.item);
+            }
+
+            //var setId;
+            function calculate(str){
+
+                if( str == 'plus') {
+                    detect.item.val(Number(detect.item.val()) + 1);
+                }else if(str == 'minus'){
+                    detect.item.val(Number(detect.item.val()) - 1);
+                }
+            }
+
+            function increase(){
+                detect.setId = setInterval(calculate,50,['plus']);
+            }
+
+            function decrease(){
+                detect.setId = setInterval(calculate,50,['minus']);
+            }
+
+            function calculateEnd(){
+                clearInterval(detect.setId);
+            }
+
+        init();
+        }
+
+        spinbox($('.spinbox1'),{item:'#result'});
+
+    })(jQuery);
+</script>
+</body>
+</html>
