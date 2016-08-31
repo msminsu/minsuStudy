@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spinBox</title>
+    <style>
+        .counter .number{overflow:hidden; width:9px;height:21px;float:left;}
+        .counter .number span{
+            position: relative; top:0px ;display:inline-block;}
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+</head>
+<body>
+
+<div class="counter">
+    0
+    <!--<div class="number"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span></div>-->
+</div>
+
+
+
+
+<script>
+    (function($){
+        function counter(container, options){
+            if(!container.length){ return;}
+
+            var detect = {
+                setId: null,
+                item: null
+            };
+
+            var config = {
+
+            };
+
+            $.extend(config, options);
+
+            function init(){
+
+                setup();
+                detect.strArr = container.text().trim().split('');
+
+                var numStr='';
+
+                for(var i= detect.strArr.length; i > 0; i--){
+
+
+                    moveUp(i);
+                    numStr +='<div class="number count_'+i+'"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span></div>';
+
+                }
+
+                 container.html(numStr);
+
+                for( var k = detect.strArr.length; k> 0; k--){
+                    detect['count_'+k] = container.find('.count_'+k+' span');
+                }
+            }
+
+            function moveUp(n){
+              detect['setId_'+n] = setInterval(workAni, 100*n,n);
+
+            }
+
+            function workAni(n){
+                     if (detect['count_'+n].position().top < 0) {
+
+                         detect['count_'+n].css({'top': '210px'});
+                     } else {
+                         detect['count_'+n].css({'top': Number(detect['count_'+n].position().top) - 10});
+                         //clearInterval(detect['setId_'+i);
+                     }
+            }
+
+            function setup(){
+                detect.item = container.find('span');
+              /*  if(detect.item.position().top >= -190) {
+                    detect.item.css({'top':detect.item.position().top-10});
+                }else{
+                    clearInterval(detect.setId);
+                }
+*/
+               /* detect.item = container.text().split('');
+                if(detect.item != ','){
+                    console.log('숫자');
+                }else{
+                    container.html('<em>,</em>');
+                }*/
+            }
+
+
+        init();
+        }
+
+        counter($('.counter'));
+
+    })(jQuery);
+</script>
+</body>
+</html>
