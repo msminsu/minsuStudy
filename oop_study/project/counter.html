@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>spinBox</title>
     <style>
-        .counter .number{overflow:hidden; width:9px;height:21px;float:left;}
+        .counter .number{overflow:hidden; width:9px;height:16px;float:left;/*outline: 1px solid red*/}
         .counter .number span{
-            position: relative; top:0px ;display:inline-block;}
+            position: relative; top:0px ;display:inline-block;/*outline:1px solid gold*/}
     </style>
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 </head>
 <body>
 
 <div class="counter">
-    0
+    00000000
     <!--<div class="number"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span></div>-->
 </div>
 
@@ -47,7 +47,7 @@
 
 
                     moveUp(i);
-                    numStr +='<div class="number count_'+i+'"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span></div>';
+                    numStr +='<div class="number count_'+i+'"><span>9</span><span>8</span><span>7</span><span>6</span><span>5</span><span>4</span><span>3</span><span>2</span><span>1</span><span>0</span></div>';
 
                 }
 
@@ -59,16 +59,16 @@
             }
 
             function moveUp(n){
-              detect['setId_'+n] = setInterval(workAni, 100*n,n);
+             detect['setId_'+n] = setInterval(workAni, 50*n,n);
 
             }
 
             function workAni(n){
-                     if (detect['count_'+n].position().top < 0) {
+                     if (detect['count_'+n].position().top > 1) {
 
-                         detect['count_'+n].css({'top': '210px'});
+                         detect['count_'+n].css({'top': '-170px'});
                      } else {
-                         detect['count_'+n].css({'top': Number(detect['count_'+n].position().top) - 10});
+                         detect['count_'+n].css({'top': Number(detect['count_'+n].position().top) + 1});
                          //clearInterval(detect['setId_'+i);
                      }
             }
