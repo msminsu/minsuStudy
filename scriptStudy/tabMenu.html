@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            color: #222;
+            font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 50rem;
+            padding: 2.5rem 1.25rem;
+        }
+
+
+        *, ::before, ::after {
+            box-sizing: border-box;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+            margin: 0;
+        }
+        .tab::after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+
+
+        .tab li  {
+            background-color: #fff;
+            border-color: #d8d8d8;
+            border-left-style: solid;
+            border-top: solid;
+            border-width: 2px;
+            color: #b5a8c5;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600;
+            float: left;
+
+            position: relative;
+            -webkit-transition: 0.1s ease-in-out;
+            transition: 0.1s ease-in-out;
+        }
+        .tab li:last-of-type {
+            border-right-style: solid;
+        }
+        .tab li::before, .tab li::after {
+            content: "";
+            display: block;
+            height: 4px;
+            position: absolute;
+            -webkit-transition: 0.1s ease-in-out;
+            transition: 0.1s ease-in-out;
+        }
+        .tab li::before {
+            background-color: #b5a8c5;
+            left: -2px;
+            right: -2px;
+            top: -2px;
+        }
+        .tab li::after {
+            background-color: transparent;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+        }
+        .tab li.current {
+            position: relative;
+            color: #975997;
+            z-index: 1;
+        }
+        .tab li a {
+            display:block;
+            padding: 0.625rem 1.25rem;
+            text-decoration: none;
+        }
+
+        .tab li.current::before {
+            background-color: #975997;
+        }
+        .tab li.current::after {
+            background-color: #fff;
+        }
+
+
+        .tab_panel {
+            overflow: hidden;
+            position: relative;
+            height: 120px;
+        }
+        .tab_panel div {display: none;}
+        .tab_panel .current {display: block;}
+        .tab_panel {
+            background-color: #fff;
+            border: 2px solid #d8d8d8;
+            padding: 1.25rem;
+        }
+
+        .tabBlock-pane > :last-child {
+            margin-bottom: 0;
+        }
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+</head>
+<body>
+<ul class="tab">
+    <li class="current"><a href="#none" data-target="#tab01" class="tabLis">Tab 01</a></li>
+    <li><a href="#none" data-target="#tab02" class="tabLis">Tab 02</a></li>
+    <li><a href="#none" data-target="#tab03" class="tabLis">Tab 03</a></li>
+</ul>
+
+<div class="tab_panel">
+    <div class="current" id="tab01">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, perspiciatis. <br/>
+        sectetur adipisicing elit. A, perspiciatis. <br/>
+        olor sit amet, consectetur adipisA, perspiciatis.
+    </div>
+    <div id="tab02">
+        sectetur adipisicing elit. A, perspiciatis. <br/>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, perspiciatis. <br/>
+        sectetur adipisicing elit. A, perspiciatis. <br/>
+    </div>
+    <div id="tab03">
+        olor sit amet, consectetur adipisA, perspiciatis. <br/>
+        sectetur adipisicing elit. A, perspiciatis. <br/>
+        olor sit amet, consectetur adipisA, perspiciatis.
+    </div>
+</div>
+<script>
+    (function($) {
+
+        function Tab(element) {
+            this.el = $(element);
+        }
+        Tab.prototype = {
+            show: function() {
+                var $this = this.el,
+                        $ul = $this.closest('ul'),
+                        $target = $($this.data('target'));
+
+                this.activate($this.closest('li'), $ul);
+                this.activate($target, $target.parents('.tab_panel'));
+            },
+            hide: function() {
+                this.el.parent().removeClass('current');
+                $(this.el.data('target')).removeClass('current');
+            },
+            activate: function(element, container) {
+                var $active = container.find('> .current');
+                var _self = this;
+
+                (function next() {
+                    $active.removeClass('current');
+                    element.addClass('current');
+                })();
+            }
+        };
+
+        $(document)
+                .on('click', '.tabLis', function(e) {
+                    var $this = $(this);
+                    var data = $this.data('tab');
+
+                    if (!data) {
+                        $this.data('tab', data = new Tab(this));
+                    }
+                    data.show();
+
+                    return false;
+                });
+
+    })(jQuery);
+</script>
+</body>
+</html>
