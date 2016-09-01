@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>spinBox</title>
     <style>
-        .counter .number{overflow:hidden; width:9px;height:16px;float:left;/*outline: 1px solid red*/}
-        .counter .number span{
+        .counter .number{overflow:hidden;line-height: 1;/* width:9px;*/float:left;/*outline: 1px solid red*/}
+        .counter .number span{line-height: 1;
             position: relative; top:0px ;display:inline-block;/*outline:1px solid gold*/}
     </style>
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
@@ -13,7 +13,7 @@
 <body>
 
 <div class="counter">
-    00000000
+ 0
     <!--<div class="number"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span></div>-->
 </div>
 
@@ -51,7 +51,10 @@
 
                 }
 
-                 container.html(numStr);
+                container.html(numStr);
+                detect.item = container.find('span');
+                container.find('.number').css({'width':detect.item.width(),'height': detect.item.height()});
+                detect.nHeight = detect.item.height() * detect.item.length;
 
                 for( var k = detect.strArr.length; k> 0; k--){
                     detect['count_'+k] = container.find('.count_'+k+' span');
@@ -59,14 +62,14 @@
             }
 
             function moveUp(n){
-             detect['setId_'+n] = setInterval(workAni, 50*n,n);
+             detect['setId_'+n] = setInterval(workAni, 100*n,n);
 
             }
 
             function workAni(n){
                      if (detect['count_'+n].position().top > 1) {
 
-                         detect['count_'+n].css({'top': '-170px'});
+                         detect['count_'+n].css({'top': -1*(detect.nHeight-detect.item.height())});
                      } else {
                          detect['count_'+n].css({'top': Number(detect['count_'+n].position().top) + 1});
                          //clearInterval(detect['setId_'+i);
@@ -74,7 +77,8 @@
             }
 
             function setup(){
-                detect.item = container.find('span');
+
+
               /*  if(detect.item.position().top >= -190) {
                     detect.item.css({'top':detect.item.position().top-10});
                 }else{
