@@ -173,4 +173,8 @@ $(document).ready(function () {
     slide($('.slide-1'), {
         item: '.view-item'
     });
+
+    slide($('.slide-2'), {
+        item: '.view-item'
+    });
 });
