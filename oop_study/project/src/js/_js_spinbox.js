@@ -144,3 +144,22 @@
 $('.spin-box').spinBox();/**
  * Created by msminsu on 2016-08-26.
  */
+function Person(){
+    //접근을 막은 값
+    var dob="8 June 2012";
+    //접근을 허용한 속성과 메소드
+    return{
+        age:"23",
+        name:"aravind",
+        getDob:function(){
+            return dob;
+        }
+    }
+}
+var pobj=new Person();
+//this will get undefined
+//because it is private to Person
+console.log(pobj.dob);
+//Will get dob value we using public
+//funtion to get private data
+console.log(pobj.getDob());

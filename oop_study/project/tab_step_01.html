@@ -4,25 +4,36 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        *{ margin: 0; padding: 0;}
+        *{ margin: 0; padding: 0;} /*#8c8c96*/
+        a{ text-decoration: none;}
         ol,ul,li{list-style: none}
-        .tab_nav{overflow:hidden;}
-        .tab_nav li{float:left}
-        .tab_nav li a{display:block;}
+        .tab_wrap{ position: relative;}
+        .tab_nav{overflow:hidden;
+            background: #47c9af;}
+        .tab_nav li{float:left;}
+        .tab_nav li a{display:block;padding: 10px 20px;color:#fff}
+        .tab_nav li.select a,.tab_nav li a:hover{display:block;padding: 10px 20px;
+           color:#8c8c96;
+            background: #fff;}
+        .tabcon{display:none;
+            position: absolute;padding:30px;text-align: center}
+
     </style>
 </head>
 <body>
 <div class="tab_wrap">
     <ul class="tab_nav">
-        <li><a href="#tab_con01">tab_menu01</a></li>
-        <li><a href="#tab_con02">tab_menu02</a></li>
-        <li><a href="#tab_con03">tab_menu03</a></li>
+        <li class="select"><a href="#tab_con01" data-tab="tab">tab_menu01</a></li>
+        <li><a href="#tab_con02" data-tab="tab">tab_menu02</a></li>
+        <li><a href="#tab_con03" data-tab="tab">tab_menu03</a></li>
     </ul>
-    <div id="tab01">tabcontents 01</div>
-    <div id="tab02">tabcontents 02</div>
-    <div id="tab03">tabcontents 03</div>
+
+    <div id="tab01" class="tabcon">tabcontents 01</div>
+    <div id="tab02" class="tabcon">tabcontents 02</div>
+    <div id="tab03" class="tabcon">tabcontents 03</div>
 </div>
 
 </body>
-<script src="./dist/js/combined.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="./src/js/tab_step_01.js"></script>
 </html>
