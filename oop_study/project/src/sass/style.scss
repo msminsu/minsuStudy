@@ -1,0 +1,166 @@
+header[role="banner"]{
+  margin: 20px 0 30px 0;
+  border-bottom:4px solid #333;
+  background: #000;
+
+  #logo{
+    float:left;
+    margin: 0 20px 0 0;
+    img{
+      display: block;
+      opacity: .95;
+    }
+  }
+}
+
+h1{
+  padding: 15px 0;
+  padding: 0px;
+  font: {
+    size: 20px;
+    family: Jubilat, Georgia serif;
+
+
+    weight: bold;}
+
+
+ text:{
+   align: center;
+   decoration: underline;
+   indent: -999px;
+   shadow: 1px 1px 1px aqua;
+ }
+  background: {
+    color: #ea4c89;
+    size: 213px 150px;
+
+    repeat: repeat;
+    position: top left;
+  }
+  line-height: 1;
+
+}
+
+
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+  border-bottom: 2px solid red;
+  &:hover{
+    color:maroon;
+    border-color: maroon;
+  }
+}
+
+li a{
+  color:blue;
+  &.alert{
+    color:red
+  }
+  &.success{
+    color:green;
+  }
+}
+
+// 주석
+/*! asdfasfa  sadfsda
+ dlrjtdms chlwhd .css  sadasd
+ cntjr cnrk dksehlsk
+*/
+
+section.main p{
+  margin: 0 0 30px 0;
+  font-size: 18px;
+  line-height: 1.5;
+  body.store &{
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+$color-main : #333;
+$color-light: #999;
+$color-accent: #ea4c89;
+$font-sans: "Proxima Nova","Helvetica Neue","sans-serif";
+$font-serif: Jubilat, Georgia, serif;
+
+body{
+  padding: 0 8%;
+  font-family: $font-sans;
+  color: $color-main;
+}
+
+
+section.secondary{
+   background: darken($color-accent, 30%);
+   border-color: lighten($color-accent, 30%);
+ }
+
+@mixin title-style($color-light, $background: #eee){
+  margin: 0 0 20px 0;
+  font:{
+    family: $font-serif;
+    size: 40px;
+    weight: bold;
+  }
+  text-transform: uppercase;
+  color: $color-light;
+  background: $background;
+
+}
+
+section.main h2{
+  @include title-style(#c63);
+}
+
+section.secondary h3{
+  @include title-style(#39c, #333);
+}
+
+@import "mixins.scss";
+
+article{
+  @include rounded(20px);
+}
+
+$width-small: 500px;
+$width-medium: 800px;
+$width-large: 1200px;
+
+@mixin responsive($width){
+  @if $width == wide-screens{
+    @media only screen and(max-width: $width-large){
+      @content;
+    }
+  }
+  @else if $width == medium-screens{
+    @media only screen and( max-wdith: $width-medium){
+      @content;
+    }
+  }
+  @else if $width == small-screens{
+    @media only screen and (max-width: $width-small){
+      @content;
+    }
+  }
+}
+
+#content{
+  float: left;
+  width: 70%;
+  @include responsive(wide-screens){
+    width: 80%;
+  }
+  @include responsive(medium-screens){
+    width: 50%;
+    font-size: 14px;
+  }
+  @include responsive(small-screens){
+    float: none;
+    width: 100%;
+    font-size: 12px;
+  }
+}
+
