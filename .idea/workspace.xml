@@ -1,212 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184a600e-8a69-4735-bd1e-3d331399bf38" name="Default" comment="up load">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/bs-recipes/recipes/webpack.babel/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/chokidar/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/fs-extra/lib/mkdirs/win32.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_arraySample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_arraySampleSize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_arrayShuffle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_baseAssignValue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_baseSample.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_baseSampleSize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_baseSetToString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_baseShuffle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_castRest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_flatRest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_memoizeCapped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_nativeDefineProperty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_overRest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_setToString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_shortOut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_shuffleSelf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_strictIndexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/_strictLastIndexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/fp/rangeStep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/localtunnel/node_modules/request/node_modules/form-data/node_modules/async/node_modules/lodash/fp/rangeStepRight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/node_modules/pinkie/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/node_modules/pinkie/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/node_modules/pinkie/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/node_modules/pinkie/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/opn/node_modules/pinkie-promise/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/qs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-index/node_modules/http-errors/node_modules/setprototypeof/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-index/node_modules/http-errors/node_modules/setprototypeof/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-index/node_modules/http-errors/node_modules/setprototypeof/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-index/node_modules/http-errors/node_modules/setprototypeof/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/encodeurl/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/encodeurl/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/encodeurl/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/encodeurl/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/encodeurl/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/serve-static/node_modules/send/node_modules/statuses/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/socket.io/node_modules/engine.io/node_modules/ws/SECURITY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/lib/levenshtein.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/locales/zh_CN.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/get-caller-file/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/get-caller-file/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/get-caller-file/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/node_modules/spdx-license-ids/spdx-license-ids.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-correct/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/node_modules/spdx-expression-parse/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/node_modules/validate-npm-package-license/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/basic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/consistency.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/dependencies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/async.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/badscripts.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/bcrypt.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/coffee-script.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/http-server.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/movefile.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/no-description.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/node-module_exist.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/npm.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/read-package-json.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/request.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/fixtures/underscore.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/github-urls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/mixedcase-names.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/normalize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/scoped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/strict.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/normalize-package-data/test/typo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/graceful-fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/legacy-streams.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/graceful-fs/polyfills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pify/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/node_modules/pinkie/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/node_modules/pinkie-promise/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/node_modules/path-type/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/node_modules/read-pkg/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/read-pkg-up/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-directory/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/require-main-filename/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/set-blocking/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/set-blocking/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/set-blocking/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/set-blocking/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/set-blocking/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/node_modules/number-is-nan/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/code-point-at/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/node_modules/number-is-nan/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/is-fullwidth-code-point/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/node_modules/ansi-regex/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/node_modules/ansi-regex/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/node_modules/ansi-regex/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/node_modules/strip-ansi/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/string-width/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/which-module/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/which-module/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/which-module/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/which-module/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/which-module/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/window-size/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/window-size/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/window-size/cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/window-size/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/window-size/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/y18n/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/y18n/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/y18n/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/y18n/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/lib/tokenize-arg-string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/node_modules/camelcase/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/node_modules/camelcase/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/node_modules/camelcase/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/node_modules/camelcase/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/node_modules/yargs-parser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/node_modules/yargs/yargs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/node_modules/browser-sync/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/accodion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/baseball_game.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/browser_check.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/counter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/javascript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/navi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/oop_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/spinbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/src/js/_js_spinbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/src/js/moon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/src/js/script-study.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/src/sass/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/src/sass/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/tab_step_01.html" />
+    <list default="true" id="184a600e-8a69-4735-bd1e-3d331399bf38" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" afterPath="$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oop_study/project/tab_step_01.html" afterPath="$PROJECT_DIR$/oop_study/project/tab_step_01.html" />
     </list>
     <ignored path="minsuStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -225,28 +23,56 @@
     <favorites_list name="minsuStudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oop_study/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oop_study/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.3530396">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="tab_step_01.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/oop_study/project/tab_step_01.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="36" column="53" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="combined.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/oop_study/project/dist/js/combined.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="moon.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/moon.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-585">
+                  <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="tab_step_01.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -311,9 +137,9 @@
         <option value="$PROJECT_DIR$/oop_study/project/src/js/script-study.js" />
         <option value="$PROJECT_DIR$/oop_study/project/src/js/_js_spinbox.js" />
         <option value="$PROJECT_DIR$/oop_study/project/src/js/moon.js" />
+        <option value="$PROJECT_DIR$/oop_study/package.json" />
         <option value="$PROJECT_DIR$/oop_study/project/tab_step_01.html" />
         <option value="$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" />
-        <option value="$PROJECT_DIR$/oop_study/package.json" />
       </list>
     </option>
   </component>
@@ -406,6 +232,102 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop_study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop_study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop_study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minsuStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oop_study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,7 +515,7 @@
       <workItem from="1474420318617" duration="8614000" />
       <workItem from="1474516798594" duration="11498000" />
       <workItem from="1474854919100" duration="4259000" />
-      <workItem from="1474862801600" duration="711000" />
+      <workItem from="1474862801600" duration="4425000" />
     </task>
     <task id="LOCAL-00001" summary="up load">
       <created>1463387966676</created>
@@ -840,33 +762,58 @@
       <option name="project" value="LOCAL" />
       <updated>1474863397577</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="up load">
+      <created>1474863536019</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1474863536019</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="488164000" />
+    <option name="totallyTimeSpent" value="491878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26717559" sideWeight="0.77820265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022355506" sideWeight="0.78203434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21287642" sideWeight="0.50316125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32398754" sideWeight="0.49789253" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4569055" sideWeight="0.49683878" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26717559" sideWeight="0.22179732" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21391486" sideWeight="0.49683878" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26717559" sideWeight="0.21796565" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21287642" sideWeight="0.50316125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32398754" sideWeight="0.49789253" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21391486" sideWeight="0.49683878" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26717559" sideWeight="0.78203434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26717559" sideWeight="0.21796565" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -942,7 +889,6 @@
     <entry file="file://$PROJECT_DIR$/scriptStudy/slider.js" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/dist/css/style.css" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/browser_check.js" />
-    <entry file="file://$PROJECT_DIR$/oop_study/project/dist/js/combined.js" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/javascript.html" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/accodion.js" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/baseball_game.html" />
@@ -951,9 +897,6 @@
     <entry file="file://$PROJECT_DIR$/oop_study/project/counter.html" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/_js_spinbox.js" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/spinbox.html" />
-    <entry file="file://$PROJECT_DIR$/oop_study/project/tab_step_01.html" />
-    <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/moon.js" />
-    <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" />
     <entry file="file://$PROJECT_DIR$/oop_study/project/script.js" />
     <entry file="file://$PROJECT_DIR$/oop_study/test.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -981,8 +924,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oop_study/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="400">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_study/project/dist/js/combined.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/moon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_study/project/tab_step_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>

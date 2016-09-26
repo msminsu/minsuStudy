@@ -11,8 +11,8 @@
         .tab_nav{overflow:hidden;
             background: #47c9af;}
         .tab_nav li{float:left;}
-        .tab_nav li a{display:block;padding: 10px 20px;color:#fff}
-        .tab_nav li.select a,.tab_nav li a:hover{display:block;padding: 10px 20px;
+        .tab_nav li a{display:block;padding: 10px 20px;color:#fff;border-right:1px solid #fff}
+        .tab_nav li.active a,.tab_nav li a:hover{display:block;padding: 10px 20px;
            color:#8c8c96;
             background: #fff;}
         .tabcon{display:none;
@@ -23,7 +23,7 @@
 <body>
 <div class="tab_wrap">
     <ul class="tab_nav">
-        <li class="select"><a href="#tab_con01" data-tab="tab">tab_menu01</a></li>
+        <li><a href="#tab_con01" data-tab="tab">tab_menu01</a></li>
         <li><a href="#tab_con02" data-tab="tab">tab_menu02</a></li>
         <li><a href="#tab_con03" data-tab="tab">tab_menu03</a></li>
     </ul>

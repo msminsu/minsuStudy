@@ -6,11 +6,10 @@ function tabMenu(container, options){
     if(!container.length){
         return;
     }
-    var detect = {
-    };
+    var detect = {};
 
     var config = {
-        start: 0
+        current: 0
     };
 
     $.extend(config, options);
@@ -20,20 +19,25 @@ function tabMenu(container, options){
         $(document)
             .on('click','[data-tab="tab"]',function(e){
                 e.preventDefault();
-                viewCon($(this).attr('href'));
+                tabView($(this).parent().index());
             });
-
-        viewCon(config.current);
+        tabView(config.current);
     }
 
     function setup(){
         detect.tabCon = container.find('>div');
+        detect.tabMenus = container.find('>.tab_nav li');
     }
 
-    function viewCon(current){
+    function tabActive(current){
+        detect.tabMenus.removeClass('active');
+        detect.tabMenus.eq(current).addClass('active');
+    }
+
+    function tabView(current){
+        tabActive(current);
         detect.tabCon.hide();
         detect.tabCon.eq(current).show();
-        console.log(detect.tabCon.eq(current));
     }
 
     init();
@@ -44,7 +48,7 @@ function tabMenu(container, options){
 
 $(document).ready(function(){
     tabMenu($('.tab_wrap'),{
-        start :2
+        current :2
     });
 });
 
