@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="184a600e-8a69-4735-bd1e-3d331399bf38" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" afterPath="$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oop_study/project/tab_step_01.html" afterPath="$PROJECT_DIR$/oop_study/project/tab_step_01.html" />
     </list>
     <ignored path="minsuStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +21,7 @@
     <favorites_list name="minsuStudy" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3530396">
+    <splitter split-orientation="horizontal" split-proportion="0.47741216">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="tab_step_01.html" pinned="false" current-in-tab="true">
@@ -63,8 +61,8 @@
           <file leaf-file-name="tab_step_01.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -515,7 +513,7 @@
       <workItem from="1474420318617" duration="8614000" />
       <workItem from="1474516798594" duration="11498000" />
       <workItem from="1474854919100" duration="4259000" />
-      <workItem from="1474862801600" duration="4425000" />
+      <workItem from="1474862801600" duration="5643000" />
     </task>
     <task id="LOCAL-00001" summary="up load">
       <created>1463387966676</created>
@@ -769,17 +767,24 @@
       <option name="project" value="LOCAL" />
       <updated>1474863536019</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="up load">
+      <created>1474867378951</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1474867378951</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491878000" />
+    <option name="totallyTimeSpent" value="493096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.022355506" sideWeight="0.78203434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17938931" sideWeight="0.78203434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21287642" sideWeight="0.50316125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32398754" sideWeight="0.49789253" order="9" side_tool="false" content_ui="tabs" />
@@ -956,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oop_study/project/src/js/tab_step_01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding />
         </state>
       </provider>
