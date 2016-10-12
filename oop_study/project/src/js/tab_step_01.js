@@ -26,7 +26,7 @@ function tabMenu(container, options){
 
     function setup(){
         detect.tabCon = container.find('>div');
-        detect.tabMenus = container.find('>.tab_nav li');
+        detect.tabMenus = container.find('>.tab_nav li');ㅓㅕ8
     }
 
     function tabActive(current){

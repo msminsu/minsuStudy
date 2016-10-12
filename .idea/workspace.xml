@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="184a600e-8a69-4735-bd1e-3d331399bf38" name="Default" comment="">
+    <list default="true" id="184a600e-8a69-4735-bd1e-3d331399bf38" name="Default" comment="up load">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/ajax.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/ajax.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oop_study/project/dist/css/style.css" />
@@ -508,7 +508,7 @@
       <workItem from="1474942119430" duration="2810000" />
       <workItem from="1474950290520" duration="5810000" />
       <workItem from="1475020940439" duration="8823000" />
-      <workItem from="1475052486779" duration="775000" />
+      <workItem from="1475052486779" duration="765000" />
     </task>
     <task id="LOCAL-00001" summary="up load">
       <created>1463387966676</created>
@@ -780,7 +780,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="511935000" />
+    <option name="totallyTimeSpent" value="511925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -920,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

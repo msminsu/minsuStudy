@@ -3,12 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        /* navigation */
+        *{ margin: 0; padding: 0;}
+        li{list-style:none}
+        a{text-decoration:none}
+        body{ font-size: 13px;}
+        .navigation {height:40px;border-top:1px solid #333948;border-bottom:1px solid #333948;background-color:#4c556a;}
+        .navigation .navi {margin:0 0;}
+        .navigation .navi:after {content:""; display:block; clear:both;}
+        .navigation .navi li {float:left;border-right:1px solid #3a4357;background-color:#4c556a;width: 120px;}
+        .navigation .navi li:first-child {border-left:1px solid #3a4357;}
+        .navigation .navi li>a {display:block;padding:12px 20px;color:#aeb7cf;font-weight:bold;text-align: center}
+        .navigation .navi li a:hover {color:#ffffff;background-color:#667497;}
+        .navigation .navi li.current>a {color:#ffffff;background-color:#667497;}
+        .navigation .navi li.current>a span.ico-down {padding-right:15px;background:url("../image/icon-down.png") no-repeat right -12px;}
+        .navigation .navi li a span.ico-down{padding-right:15px;background:url("../image/icon-down.png") no-repeat right 6px;}
+        .navigation .navi li a:hover span.ico-down{padding-right:15px;background:url("../image/icon-down.png") no-repeat right -12px;}
+        .navigation .navi li ul{display:none;position:absolute;z-index:10;text-align: center;width:140px;}
+        .navigation .navi li ul li:first-child{border:none;border-top:1px solid #4c556a}
+        .navigation .navi li ul li{clear:both;width:100%;border:none;border-top:1px solid #4c556a}
+        .navigation .navi li ul li a{padding:10px;color:#fff;background:#333948}
+        .navigation .navi li ul li a:hover{color:#ffffff;background-color:#667497}
+    </style>
 </head>
 <body>
 <a href="#none" class="btn">test</a>
 
-<div class="test"></div>
+<div class="navigation">
+    <ul class="navi"></ul>
+</div>
 <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<script src="./mobile-admin_ko.js"></script>
 <script src="./ajax.js"></script>
+<script>
+    $(function() {
+
+        //drop down
+        $('.navi>li>a').on('click',
+                function() {
+                    if ($(this).siblings('ul').length != 0){
+                        var $target = $(this).parent('li');
+
+                        if( $target.attr('class') != 'current'){
+                            //현재 메뉴
+                            resetMenu();
+                            $('ul', $target).stop().slideDown(200);
+                            $target.addClass('current');
+
+                        }else{
+                            //이전 메뉴
+                            $('ul', $target).stop().slideUp(200);
+                            $target.removeClass('current');
+                        }
+                    }else{
+                        resetMenu();
+                    }
+                }
+        );
+
+        function resetMenu(){
+            $('.navi>li').removeClass('current');
+            $('.navi>li').find('ul').stop().slideUp(200);
+        }
+/*
+
+        $( "#tabs" ).tabs();
+        //캘린더
+        $("#datepicker,#datepicker2").datepicker({
+            showOn: "button",
+            buttonImage: "../image/ico-calendar.png",
+            buttonImageOnly: true
+        });
+        //Popup
+        $('.popup').click(function() {
+            window.open('popup.html','','width=700,height=800');
+            return false;
+        });
+        //modal
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            width: 400,
+            modal: true,
+            buttons: [
+                {
+                    text: "Ok",
+                    click: function() {
+                        $( this ).dialog( "close" );
+                    }
+                },
+                {
+                    text: "Cancel",
+                    click: function() {
+                        $( this ).dialog( "close" );
+                    }
+                }
+            ]
+        });
+
+        // Link to open the dialog
+        $( "#dialog-link" ).click(function( event ) {
+            $( "#dialog" ).dialog( "open" );
+            event.preventDefault();
+        });*/
+    });
+</script>
 </body>
 </html>

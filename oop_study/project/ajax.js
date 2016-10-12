@@ -2,18 +2,12 @@ $(document).ready(function(){
   
 
    $('.btn').click(function(){
-        $.ajax({
-            type:"GET",
-            url:'./mobile-admin_ko.js',
-            success:function(data){
-
-
-                var _data = {
-                  'addr' : data
-                };
-                console.log(_data['window.$mobileAdmin']);
-            }
-        })
+       var data = window.$mobileAdmin;
+       var str='';
+       $.each(data.mainMenuList,function(key, value){
+           str+='<li><a href="'+value["url"]+'" target="'+value["target"]+'" ><span>'+value["name"]+'</span></a></li>';
+       });
+       $('.navi').html(str);
     });
-                  
+
 });
